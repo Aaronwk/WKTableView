@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # WKTableView
 
 [![CI Status](https://img.shields.io/travis/objective/WKTableView.svg?style=flat)](https://travis-ci.org/objective/WKTableView)
@@ -27,3 +28,6 @@ objective, wangkai@ctdcn.com
 ## License
 
 WKTableView is available under the MIT license. See the LICENSE file for more info.
+=======
+# WKTableView
+>>>>>>> 047597617310ac863cc8ae201bba492819a2fe97
