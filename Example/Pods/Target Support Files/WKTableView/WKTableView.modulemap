@@ -1,0 +1,6 @@
+framework module WKTableView {
+  umbrella header "WKTableView-umbrella.h"
+
+  export *
+  module * { export * }
+}

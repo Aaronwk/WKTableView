@@ -1,0 +1,16 @@
+PODS:
+  - WKTableView (0.1.0)
+
+DEPENDENCIES:
+  - WKTableView (from `../`)
+
+EXTERNAL SOURCES:
+  WKTableView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  WKTableView: aa7606e400573fd46f9df57237b24b9772454077
+
+PODFILE CHECKSUM: 2eb82e8ffb7c4bb0960307445c99a4a10858682c
+
+COCOAPODS: 1.4.0

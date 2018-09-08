@@ -1,0 +1,22 @@
+{
+  "name": "WKTableView",
+  "version": "0.1.0",
+  "summary": "A short description of WKTableView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/objective/WKTableView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "objective": "wangkai@ctdcn.com"
+  },
+  "source": {
+    "git": "https://github.com/objective/WKTableView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WKTableView/Classes/**/*"
+}
