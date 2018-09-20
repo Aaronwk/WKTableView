@@ -3,16 +3,16 @@
   "version": "0.1.0",
   "summary": "A short description of WKTableView.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/objective/WKTableView",
+  "homepage": "https://github.com/Aaronwk/WKTableView",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "objective": "wangkai@ctdcn.com"
+    "Aaronwk": "jlrslwang@163.com"
   },
   "source": {
-    "git": "https://github.com/objective/WKTableView.git",
+    "git": "https://github.com/Aaronwk/WKTableView.git",
     "tag": "0.1.0"
   },
   "platforms": {

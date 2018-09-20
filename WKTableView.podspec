@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/objective/WKTableView'
+  s.homepage         = 'https://github.com/Aaronwk/WKTableView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'objective' => 'wangkai@ctdcn.com' }
-  s.source           = { :git => 'https://github.com/objective/WKTableView.git', :tag => s.version.to_s }
+  s.author           = { 'Aaronwk' => 'jlrslwang@163.com' }
+  s.source           = { :git => 'https://github.com/Aaronwk/WKTableView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

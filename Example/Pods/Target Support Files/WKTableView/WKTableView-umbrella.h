@@ -10,6 +10,11 @@
 #endif
 #endif
 
+#import "UIView+WKExtension.h"
+#import "WKPlaceholderView.h"
+#import "WKTableView.h"
+#import "WKTableViewConfiguration.h"
+#import "WKTableViewKit.h"
 
 FOUNDATION_EXPORT double WKTableViewVersionNumber;
 FOUNDATION_EXPORT const unsigned char WKTableViewVersionString[];

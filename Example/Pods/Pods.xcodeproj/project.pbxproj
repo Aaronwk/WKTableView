@@ -8,14 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		0BD9CA200EF59B6D8C8A1F371CF342C0 /* Pods-WKTableView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CBF7FE87036413FA6D647F9F2F19CA6 /* Pods-WKTableView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		13B917913AF15B75C73A312CDE2A9EEF /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = C1BBE6B01B7DC607D32FF86391ED4211 /* ReplaceMe.m */; };
-		3CA097E10A51C75252807BE05F3A5B0C /* WKTableView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B64385264DA4EAB42D2AF729C099CCB5 /* WKTableView-dummy.m */; };
+		32D16E0EE786D85E4584499F36670771 /* UIView+WKExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 6318A9A8967465B6B534489D72E11CD6 /* UIView+WKExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4693CA88C9FE6D24A4308F3D3A6D3BDA /* WKTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B5F5D3BB9E1EAF2E986D40B1C11F6A0 /* WKTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6865F71C47C38901C3317178BC65C37C /* WKTableView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2827B3FCED4576483C7D2B32516CA666 /* WKTableView-dummy.m */; };
+		76AFFB6EBF29E899336469645899BBD6 /* WKTableViewConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 240B42981C8BC82C4C5BC64E7DE1B5A0 /* WKTableViewConfiguration.m */; };
 		7740EC194664314F8F96FDC229EB102E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		7BEED637698232C0CB9D4DC79D033B16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		7DA1E34EB6152CE3FCEEDC96A8C32AF3 /* WKTableViewConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AF774EAAC6900A6C550DB11CAE06FDB /* WKTableViewConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		85066E9FD527A32755C5888C6EA8A0B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		9A3D97C6EF22A3F333B3A43908BBD1DB /* WKPlaceholderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 006125CAC8BC49AC80A1041A916E13AE /* WKPlaceholderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A2ED2ECB441ABF501F028DA637F3581A /* Pods-WKTableView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E28C49178A821C4069A25781A10ECA28 /* Pods-WKTableView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A31738FCDC8EE9F198C85DCB0F7EB007 /* WKTableViewKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B56CDAB9F2BB0A1D72835D2F63C77D /* WKTableViewKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A3726D5B533FE2105B7DA70896D029D1 /* Pods-WKTableView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D302F1CEDB9E9225C850BF208EF12522 /* Pods-WKTableView_Example-dummy.m */; };
-		C3D1C7465A6C2821B779DB8F41F2EB16 /* WKTableView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD222837618FCDFD3441812C2C3B6F8A /* WKTableView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D858185A2EA81CAB66D9A5C1EF791990 /* WKTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89863F819C2693B2538356696129E673 /* WKTableView.m */; };
+		E5EFC492E34A846ED1F06807BAE4FD5A /* WKTableView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6142012B81B10694F825E3272AA8ACC9 /* WKTableView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6CAC54286A0EB9B9DF3EFA88FAA9AF5 /* WKPlaceholderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7AD5D1E8838C3DC056421669EC582A /* WKPlaceholderView.m */; };
+		EB909934392978BBF1886ED3623C0EF7 /* UIView+WKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EF644CDFAD9DAD9973C13A23B132CE /* UIView+WKExtension.m */; };
 		F6347112DEC1461A2DA03319DA6FF1AE /* Pods-WKTableView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D97ABD9DD16F6BB39BD6AF97D93709F /* Pods-WKTableView_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -30,31 +38,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06CB71814B37B0AFE794FC04A14D55AD /* WKTableView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WKTableView.modulemap; sourceTree = "<group>"; };
+		006125CAC8BC49AC80A1041A916E13AE /* WKPlaceholderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKPlaceholderView.h; path = WKTableView/Classes/WKPlaceholderView.h; sourceTree = "<group>"; };
+		0D4274E3364A119A0C876D1745FC7070 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		0D97ABD9DD16F6BB39BD6AF97D93709F /* Pods-WKTableView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WKTableView_Tests-dummy.m"; sourceTree = "<group>"; };
-		1954950C2814D80828BF690FDE57B630 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		15B56CDAB9F2BB0A1D72835D2F63C77D /* WKTableViewKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKTableViewKit.h; path = WKTableView/Classes/WKTableViewKit.h; sourceTree = "<group>"; };
+		18670D21B06E86669604BB0A1FDEF78A /* WKTableView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = WKTableView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1C10931D4107818F1D6111C74860AB08 /* Pods-WKTableView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WKTableView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		240B42981C8BC82C4C5BC64E7DE1B5A0 /* WKTableViewConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WKTableViewConfiguration.m; path = WKTableView/Classes/WKTableViewConfiguration.m; sourceTree = "<group>"; };
+		2827B3FCED4576483C7D2B32516CA666 /* WKTableView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WKTableView-dummy.m"; sourceTree = "<group>"; };
+		2A7AD5D1E8838C3DC056421669EC582A /* WKPlaceholderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WKPlaceholderView.m; path = WKTableView/Classes/WKPlaceholderView.m; sourceTree = "<group>"; };
+		34EF644CDFAD9DAD9973C13A23B132CE /* UIView+WKExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WKExtension.m"; path = "WKTableView/Classes/UIView+WKExtension.m"; sourceTree = "<group>"; };
+		38EC1413BCB4D0017A2FB251592B6F64 /* WKTableView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WKTableView.modulemap; sourceTree = "<group>"; };
 		3AF6BA0C9C61239CAFB1DBA08B3B4377 /* Pods-WKTableView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WKTableView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3D13D6E063D20AE1E4713C29124DF22A /* WKTableView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = WKTableView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		47DA020ACBA1080BB21016B857915348 /* Pods-WKTableView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WKTableView_Tests.modulemap"; sourceTree = "<group>"; };
+		4AF774EAAC6900A6C550DB11CAE06FDB /* WKTableViewConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKTableViewConfiguration.h; path = WKTableView/Classes/WKTableViewConfiguration.h; sourceTree = "<group>"; };
 		5503D0990C8361AC249AE072F64EC3A1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6142012B81B10694F825E3272AA8ACC9 /* WKTableView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WKTableView-umbrella.h"; sourceTree = "<group>"; };
+		6318A9A8967465B6B534489D72E11CD6 /* UIView+WKExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WKExtension.h"; path = "WKTableView/Classes/UIView+WKExtension.h"; sourceTree = "<group>"; };
 		697D07A20CDB6251EF2A5CC263E52253 /* Pods-WKTableView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WKTableView_Example.modulemap"; sourceTree = "<group>"; };
-		6ED985CD18B7F46584D2B4BE00BB701C /* WKTableView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WKTableView.xcconfig; sourceTree = "<group>"; };
+		77D2C03F6FF553D1A2A1DA1373139090 /* WKTableView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WKTableView.xcconfig; sourceTree = "<group>"; };
+		7B5F5D3BB9E1EAF2E986D40B1C11F6A0 /* WKTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKTableView.h; path = WKTableView/Classes/WKTableView.h; sourceTree = "<group>"; };
 		886E99157B5B8D1AA450545196ACA80E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89863F819C2693B2538356696129E673 /* WKTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WKTableView.m; path = WKTableView/Classes/WKTableView.m; sourceTree = "<group>"; };
 		9188D56D37EE221FEF2B8EB84FB2BB34 /* Pods_WKTableView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WKTableView_Example.framework; path = "Pods-WKTableView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9703692813F86853657C080218A0D0CE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		9B309ADD28ACBDDA25723E9F0689881D /* Pods-WKTableView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WKTableView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		9C06823B50C7A1C34B5DBEC432DFFAC4 /* Pods_WKTableView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WKTableView_Tests.framework; path = "Pods-WKTableView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CBF7FE87036413FA6D647F9F2F19CA6 /* Pods-WKTableView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WKTableView_Example-umbrella.h"; sourceTree = "<group>"; };
-		AA0FBB0535D20C51F29CC1D54F9F0AF4 /* WKTableView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WKTableView-prefix.pch"; sourceTree = "<group>"; };
+		9D48075A533427F15C79748D688A9B98 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6D64D595850C30F9DB8EE099E9D816A /* WKTableView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WKTableView-prefix.pch"; sourceTree = "<group>"; };
 		AB841DB52BEF9ED7FFDABC2322088EAF /* Pods-WKTableView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WKTableView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B267291DEB49EA4D2B8A3DC636A61243 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		B50912FFA60094BC99BC032F0E116384 /* Pods-WKTableView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WKTableView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		B64385264DA4EAB42D2AF729C099CCB5 /* WKTableView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WKTableView-dummy.m"; sourceTree = "<group>"; };
 		C13A5557FF53D8D54822E1855CB95295 /* Pods-WKTableView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WKTableView_Example-resources.sh"; sourceTree = "<group>"; };
-		C1BBE6B01B7DC607D32FF86391ED4211 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = WKTableView/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		C245C52B71A340DE9A34EFEDD7045F13 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3C4E9F8BFC279DD6A55546CCFDFECAF /* WKTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WKTableView.framework; path = WKTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4608290A405AA112C7BE1E69F6BA1DC /* Pods-WKTableView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WKTableView_Tests-resources.sh"; sourceTree = "<group>"; };
 		CB3B212A0E8F16D34C4A39C0E9C0C675 /* Pods-WKTableView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WKTableView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -64,7 +81,6 @@
 		ED1C14F25AA017C3F6FDAC4FAB9E6F1C /* Pods-WKTableView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WKTableView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F068200ED21EB69949D65F852AE54997 /* Pods-WKTableView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WKTableView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		FBBAD26DB787D47636A54DB75445EE56 /* Pods-WKTableView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WKTableView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		FD222837618FCDFD3441812C2C3B6F8A /* WKTableView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WKTableView-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +111,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01417F73CD88718A2603A4104F164C35 /* WKTableView */ = {
+			isa = PBXGroup;
+			children = (
+				6318A9A8967465B6B534489D72E11CD6 /* UIView+WKExtension.h */,
+				34EF644CDFAD9DAD9973C13A23B132CE /* UIView+WKExtension.m */,
+				006125CAC8BC49AC80A1041A916E13AE /* WKPlaceholderView.h */,
+				2A7AD5D1E8838C3DC056421669EC582A /* WKPlaceholderView.m */,
+				7B5F5D3BB9E1EAF2E986D40B1C11F6A0 /* WKTableView.h */,
+				89863F819C2693B2538356696129E673 /* WKTableView.m */,
+				4AF774EAAC6900A6C550DB11CAE06FDB /* WKTableViewConfiguration.h */,
+				240B42981C8BC82C4C5BC64E7DE1B5A0 /* WKTableViewConfiguration.m */,
+				15B56CDAB9F2BB0A1D72835D2F63C77D /* WKTableViewKit.h */,
+				7F7135D97654CC759F9BE3377B3DCF88 /* Pod */,
+				05E64BE5B51D000BAF3DD847F579ABE5 /* Support Files */,
+			);
+			name = WKTableView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		05E64BE5B51D000BAF3DD847F579ABE5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D48075A533427F15C79748D688A9B98 /* Info.plist */,
+				38EC1413BCB4D0017A2FB251592B6F64 /* WKTableView.modulemap */,
+				77D2C03F6FF553D1A2A1DA1373139090 /* WKTableView.xcconfig */,
+				2827B3FCED4576483C7D2B32516CA666 /* WKTableView-dummy.m */,
+				A6D64D595850C30F9DB8EE099E9D816A /* WKTableView-prefix.pch */,
+				6142012B81B10694F825E3272AA8ACC9 /* WKTableView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WKTableView";
+			sourceTree = "<group>";
+		};
 		1F29D1086CE79B2A0E25D83633EEC85B /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,30 +190,6 @@
 			path = "Target Support Files/Pods-WKTableView_Example";
 			sourceTree = "<group>";
 		};
-		3E283CB6E846147B6AD20CF64E8D6401 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C245C52B71A340DE9A34EFEDD7045F13 /* Info.plist */,
-				06CB71814B37B0AFE794FC04A14D55AD /* WKTableView.modulemap */,
-				6ED985CD18B7F46584D2B4BE00BB701C /* WKTableView.xcconfig */,
-				B64385264DA4EAB42D2AF729C099CCB5 /* WKTableView-dummy.m */,
-				AA0FBB0535D20C51F29CC1D54F9F0AF4 /* WKTableView-prefix.pch */,
-				FD222837618FCDFD3441812C2C3B6F8A /* WKTableView-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WKTableView";
-			sourceTree = "<group>";
-		};
-		4F614518822245EDE53FDA5402877104 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				9703692813F86853657C080218A0D0CE /* LICENSE */,
-				1954950C2814D80828BF690FDE57B630 /* README.md */,
-				3D13D6E063D20AE1E4713C29124DF22A /* WKTableView.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -173,34 +198,25 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		6C828C9EDAD05BE3DCF7AFFB18900741 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				923EC726CF5FBE7DD8FB8E8C7A3A3A1A /* WKTableView */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				6C828C9EDAD05BE3DCF7AFFB18900741 /* Development Pods */,
+				EE1DC38C9F2919F8458E24E046B7C1EF /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				1F29D1086CE79B2A0E25D83633EEC85B /* Products */,
 				DE29E952ACE04808BCEBD2FC009066C9 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		923EC726CF5FBE7DD8FB8E8C7A3A3A1A /* WKTableView */ = {
+		7F7135D97654CC759F9BE3377B3DCF88 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				C1BBE6B01B7DC607D32FF86391ED4211 /* ReplaceMe.m */,
-				4F614518822245EDE53FDA5402877104 /* Pod */,
-				3E283CB6E846147B6AD20CF64E8D6401 /* Support Files */,
+				0D4274E3364A119A0C876D1745FC7070 /* LICENSE */,
+				B267291DEB49EA4D2B8A3DC636A61243 /* README.md */,
+				18670D21B06E86669604BB0A1FDEF78A /* WKTableView.podspec */,
 			);
-			name = WKTableView;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -220,22 +236,35 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		EE1DC38C9F2919F8458E24E046B7C1EF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01417F73CD88718A2603A4104F164C35 /* WKTableView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4DE16FB4AD73658E569B1C5D94FF7C1A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C3D1C7465A6C2821B779DB8F41F2EB16 /* WKTableView-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6E515BBF76A3F294B061B1E94FDA6B0F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0BD9CA200EF59B6D8C8A1F371CF342C0 /* Pods-WKTableView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		760CD7BA2F01CD0327DBDABE89A59973 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32D16E0EE786D85E4584499F36670771 /* UIView+WKExtension.h in Headers */,
+				9A3D97C6EF22A3F333B3A43908BBD1DB /* WKPlaceholderView.h in Headers */,
+				E5EFC492E34A846ED1F06807BAE4FD5A /* WKTableView-umbrella.h in Headers */,
+				4693CA88C9FE6D24A4308F3D3A6D3BDA /* WKTableView.h in Headers */,
+				7DA1E34EB6152CE3FCEEDC96A8C32AF3 /* WKTableViewConfiguration.h in Headers */,
+				A31738FCDC8EE9F198C85DCB0F7EB007 /* WKTableViewKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,9 +300,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF515C339B32123E842FA670BE8410AD /* Build configuration list for PBXNativeTarget "WKTableView" */;
 			buildPhases = (
-				32DB6EA139A0A6C5032CCE43328379AD /* Sources */,
+				14C7E7E874B097CEA3CFD0F3604A3EFD /* Sources */,
 				7D50450C5D035520EA5D8A0D13210A0D /* Frameworks */,
-				4DE16FB4AD73658E569B1C5D94FF7C1A /* Headers */,
+				760CD7BA2F01CD0327DBDABE89A59973 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -339,12 +368,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		32DB6EA139A0A6C5032CCE43328379AD /* Sources */ = {
+		14C7E7E874B097CEA3CFD0F3604A3EFD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13B917913AF15B75C73A312CDE2A9EEF /* ReplaceMe.m in Sources */,
-				3CA097E10A51C75252807BE05F3A5B0C /* WKTableView-dummy.m in Sources */,
+				EB909934392978BBF1886ED3623C0EF7 /* UIView+WKExtension.m in Sources */,
+				E6CAC54286A0EB9B9DF3EFA88FAA9AF5 /* WKPlaceholderView.m in Sources */,
+				6865F71C47C38901C3317178BC65C37C /* WKTableView-dummy.m in Sources */,
+				D858185A2EA81CAB66D9A5C1EF791990 /* WKTableView.m in Sources */,
+				76AFFB6EBF29E899336469645899BBD6 /* WKTableViewConfiguration.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -589,7 +621,7 @@
 		};
 		9195CF9EF3E58014D8FB49C001C33ED8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6ED985CD18B7F46584D2B4BE00BB701C /* WKTableView.xcconfig */;
+			baseConfigurationReference = 77D2C03F6FF553D1A2A1DA1373139090 /* WKTableView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -619,7 +651,7 @@
 		};
 		C7DE701995E7F1AB8F3D5AE8D0E3263D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6ED985CD18B7F46584D2B4BE00BB701C /* WKTableView.xcconfig */;
+			baseConfigurationReference = 77D2C03F6FF553D1A2A1DA1373139090 /* WKTableView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
